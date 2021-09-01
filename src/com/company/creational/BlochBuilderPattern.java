@@ -43,7 +43,7 @@ class Submarine {
         this.jumpVector = jumpVector;
     }
 
-    static class SubmarineBuilder {
+    public static class SubmarineBuilder {
         private Submarine submarine;
         private String name;
         private Integer power;
