@@ -2,7 +2,9 @@ package com.company.creational;
 
 import java.util.Arrays;
 import java.util.List;
-
+// should be used for complex creation of objects.
+// at times can also be used for creation of objects with circular references.
+// for creation of trees of objects since you could possibly use recursion while creation of objects.
 public class BuilderPattern {
 
     public static void main(String[] args) {
